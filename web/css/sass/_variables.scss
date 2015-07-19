@@ -1,0 +1,11 @@
+// =============================================================================
+// Base configuration
+// =============================================================================
+
+// Value of the `box-sizing` property. The default value is `content-box` as
+// specified by the CSS standard.
+$box-sizing:                        border-box;
+
+$base-font-family:                  sans-serif;
+$base-font-size:                    16px;
+$base-line-height:                  1.25;

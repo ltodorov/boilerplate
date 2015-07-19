@@ -1,0 +1,36 @@
+{
+    "env": "development",
+    "js": {
+        "src": {
+            "file": [
+                "web/js/modules/script.js"
+            ]
+        },
+        "dest": {
+            "folder": "web/js",
+            "file": "bundle.js"
+        }
+    },
+    "css": {
+        "src": {
+            "file": "web/css/sass/style.scss",
+            "watch": "web/css/sass/**/*.scss"
+        },
+        "dest": {
+            "folder": "web/css"
+        },
+        "sass": {
+            "style": {
+                "development": "expanded",
+                "production": "compressed"
+            }
+        },
+        "autoprefixer": {
+            "browsers": [
+                "last 3 versions",
+                "> 1%"
+            ],
+            "cascade": true
+        }
+    }
+}

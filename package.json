@@ -1,0 +1,38 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Front-End Boilerplate for building web applications",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ltodorov/boilerplate.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Lyubomir Todorov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ltodorov/boilerplate/issues"
+  },
+  "homepage": "https://github.com/ltodorov/boilerplate#readme",
+  "devDependencies": {
+    "browserify": "^11.0.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-if": "^1.2.5",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "minimist": "^1.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.3.0"
+  }
+}
