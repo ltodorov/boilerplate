@@ -3,7 +3,7 @@
     "js": {
         "src": {
             "file": [
-                "web/js/modules/script.js"
+                "web/js/modules/main.js"
             ]
         },
         "dest": {
